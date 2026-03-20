@@ -1,0 +1,79 @@
+body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0f172a;
+            color: #e2e8f0;
+        }
+
+        header {
+            text-align: center;
+            padding: 40px;
+            background: hsl(217, 33%, 17%);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            margin-top: 10px;
+            color: #94a3b8;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 7000px;
+            margin: auto;
+            padding: 20px;
+        }
+
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            border-bottom: 2px solid hwb(198 22% 3%);
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+
+        .card {
+            background: rgb(30, 41, 59);
+            padding: 15px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+        }
+
+        .skills span {
+            display: inline-block;
+            background: #38bdf8;
+            color: black;
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 5px;
+            font-size: 0.9rem;
+            flex-direction: row-reverse;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+
+        
+        
+        .content {
+             display: inline-grid;
+            background: #38bdf8;
+            color: rgb(0, 0, 0);
+            padding: 5px 10px;
+            margin: 5px;
+            border-radius: 10px;
+            font-size: 1.1rem;
+            justify-content: space-between;
+            
+        }
+        .link {
+            text-align: end;
+            
+           
+        }
+        
